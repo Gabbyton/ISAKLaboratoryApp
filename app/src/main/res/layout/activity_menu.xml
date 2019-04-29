@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MenuActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="48dp"
+            android:text="@string/menu_instructions"
+            android:textAlignment="center" />
+
+        <Button
+            android:id="@+id/borrowButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="24dp"
+            android:layout_marginRight="24dp"
+            android:layout_marginBottom="28dp"
+            android:text="@string/borrow_button_text"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/returningButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="24dp"
+            android:layout_marginRight="24dp"
+            android:layout_marginBottom="28dp"
+            android:text="@string/return_button_text"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/instructionsButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="24dp"
+            android:layout_marginRight="24dp"
+            android:layout_marginBottom="28dp"
+            android:text="@string/instructions_button_text"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/closeButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="48dp"
+            android:drawableStart="@android:drawable/ic_delete"
+            android:paddingLeft="24dp"
+            android:paddingRight="24dp"
+            android:text="@string/close_button_text"
+            android:textAllCaps="true" />
+
+    </LinearLayout>
+
+</RelativeLayout>
